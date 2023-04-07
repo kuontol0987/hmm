@@ -1,0 +1,42 @@
+[23-May-2021 23:10:05 Europe/Belgrade] PHP Warning:  include_once(./core/inc/config.php): Failed to open stream: No such file or directory in /home/dstat.pro/public_html/includes.php on line 78
+[23-May-2021 23:10:05 Europe/Belgrade] PHP Warning:  include_once(): Failed opening './core/inc/config.php' for inclusion (include_path='.:/usr/local/lsws/lsphp80/share/pear:/usr/local/lsws/lsphp80/share/php') in /home/dstat.pro/public_html/includes.php on line 78
+[23-May-2021 23:10:05 Europe/Belgrade] PHP Warning:  include_once(./core/class/db.class.php): Failed to open stream: No such file or directory in /home/dstat.pro/public_html/includes.php on line 81
+[23-May-2021 23:10:05 Europe/Belgrade] PHP Warning:  include_once(): Failed opening './core/class/db.class.php' for inclusion (include_path='.:/usr/local/lsws/lsphp80/share/pear:/usr/local/lsws/lsphp80/share/php') in /home/dstat.pro/public_html/includes.php on line 81
+[23-May-2021 23:10:05 Europe/Belgrade] PHP Warning:  include_once(./core/class/user.class.php): Failed to open stream: No such file or directory in /home/dstat.pro/public_html/includes.php on line 82
+[23-May-2021 23:10:05 Europe/Belgrade] PHP Warning:  include_once(): Failed opening './core/class/user.class.php' for inclusion (include_path='.:/usr/local/lsws/lsphp80/share/pear:/usr/local/lsws/lsphp80/share/php') in /home/dstat.pro/public_html/includes.php on line 82
+[23-May-2021 23:10:05 Europe/Belgrade] PHP Warning:  include_once(./core/class/secure.class.php): Failed to open stream: No such file or directory in /home/dstat.pro/public_html/includes.php on line 83
+[23-May-2021 23:10:05 Europe/Belgrade] PHP Warning:  include_once(): Failed opening './core/class/secure.class.php' for inclusion (include_path='.:/usr/local/lsws/lsphp80/share/pear:/usr/local/lsws/lsphp80/share/php') in /home/dstat.pro/public_html/includes.php on line 83
+[23-May-2021 23:10:05 Europe/Belgrade] PHP Warning:  include_once(./core/class/news.class.php): Failed to open stream: No such file or directory in /home/dstat.pro/public_html/includes.php on line 84
+[23-May-2021 23:10:05 Europe/Belgrade] PHP Warning:  include_once(): Failed opening './core/class/news.class.php' for inclusion (include_path='.:/usr/local/lsws/lsphp80/share/pear:/usr/local/lsws/lsphp80/share/php') in /home/dstat.pro/public_html/includes.php on line 84
+[23-May-2021 23:10:05 Europe/Belgrade] PHP Warning:  include_once(./core/class/support.class.php): Failed to open stream: No such file or directory in /home/dstat.pro/public_html/includes.php on line 85
+[23-May-2021 23:10:05 Europe/Belgrade] PHP Warning:  include_once(): Failed opening './core/class/support.class.php' for inclusion (include_path='.:/usr/local/lsws/lsphp80/share/pear:/usr/local/lsws/lsphp80/share/php') in /home/dstat.pro/public_html/includes.php on line 85
+[23-May-2021 23:10:05 Europe/Belgrade] PHP Warning:  include_once(./core/class/alert.class.php): Failed to open stream: No such file or directory in /home/dstat.pro/public_html/includes.php on line 86
+[23-May-2021 23:10:05 Europe/Belgrade] PHP Warning:  include_once(): Failed opening './core/class/alert.class.php' for inclusion (include_path='.:/usr/local/lsws/lsphp80/share/pear:/usr/local/lsws/lsphp80/share/php') in /home/dstat.pro/public_html/includes.php on line 86
+[23-May-2021 23:10:05 Europe/Belgrade] PHP Warning:  include_once(./core/class/logs.class.php): Failed to open stream: No such file or directory in /home/dstat.pro/public_html/includes.php on line 87
+[23-May-2021 23:10:05 Europe/Belgrade] PHP Warning:  include_once(): Failed opening './core/class/logs.class.php' for inclusion (include_path='.:/usr/local/lsws/lsphp80/share/pear:/usr/local/lsws/lsphp80/share/php') in /home/dstat.pro/public_html/includes.php on line 87
+[23-May-2021 23:10:05 Europe/Belgrade] PHP Warning:  include_once(./core/class/admin.class.php): Failed to open stream: No such file or directory in /home/dstat.pro/public_html/includes.php on line 89
+[23-May-2021 23:10:05 Europe/Belgrade] PHP Warning:  include_once(): Failed opening './core/class/admin.class.php' for inclusion (include_path='.:/usr/local/lsws/lsphp80/share/pear:/usr/local/lsws/lsphp80/share/php') in /home/dstat.pro/public_html/includes.php on line 89
+[23-May-2021 23:10:05 Europe/Belgrade] PHP Warning:  include_once(./core/class/banners.class.php): Failed to open stream: No such file or directory in /home/dstat.pro/public_html/includes.php on line 90
+[23-May-2021 23:10:05 Europe/Belgrade] PHP Warning:  include_once(): Failed opening './core/class/banners.class.php' for inclusion (include_path='.:/usr/local/lsws/lsphp80/share/pear:/usr/local/lsws/lsphp80/share/php') in /home/dstat.pro/public_html/includes.php on line 90
+[23-May-2021 23:10:05 Europe/Belgrade] PHP Warning:  include_once(./core/class/whois.class.php): Failed to open stream: No such file or directory in /home/dstat.pro/public_html/includes.php on line 91
+[23-May-2021 23:10:05 Europe/Belgrade] PHP Warning:  include_once(): Failed opening './core/class/whois.class.php' for inclusion (include_path='.:/usr/local/lsws/lsphp80/share/pear:/usr/local/lsws/lsphp80/share/php') in /home/dstat.pro/public_html/includes.php on line 91
+[23-May-2021 23:10:05 Europe/Belgrade] PHP Fatal error:  Uncaught Error: Class "Database" not found in /home/dstat.pro/public_html/includes.php:95
+Stack trace:
+#0 /home/dstat.pro/public_html/core/api.php(5): include_once()
+#1 {main}
+  thrown in /home/dstat.pro/public_html/includes.php on line 95
+[23-May-2021 23:13:24 Europe/Belgrade] PHP Fatal error:  Uncaught Error: Class "dnf" not found in /home/dstat.pro/public_html/includes.php:107
+Stack trace:
+#0 /home/dstat.pro/public_html/core/api.php(5): include_once()
+#1 {main}
+  thrown in /home/dstat.pro/public_html/includes.php on line 107
+[23-May-2021 23:13:25 Europe/Belgrade] PHP Fatal error:  Uncaught Error: Class "dnf" not found in /home/dstat.pro/public_html/includes.php:107
+Stack trace:
+#0 /home/dstat.pro/public_html/core/api.php(5): include_once()
+#1 {main}
+  thrown in /home/dstat.pro/public_html/includes.php on line 107
+[23-May-2021 23:16:58 Europe/Belgrade] PHP Fatal error:  Uncaught Error: Call to a member function searchusers() on null in /home/dstat.pro/public_html/core/api.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/dstat.pro/public_html/core/api.php on line 9
+[23-May-2021 22:19:43 UTC] PHP Notice:  session_start(): ps_files_cleanup_dir: opendir(/var/lib/lsphp/session/lsphp80) failed: Permission denied (13) in /home/dstat.pro/public_html/includes.php on line 37
